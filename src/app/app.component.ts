@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TransactionComponent} from './transaction/transaction.component';
 
 @Component({
   selector: 'app-root',

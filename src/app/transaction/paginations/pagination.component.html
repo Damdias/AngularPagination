@@ -1,0 +1,7 @@
+
+<ul>
+    <li class="previous"> <a (click)="previoudPage()" href="#">Previous</a> </li>
+    <li [ngClass]="{'selected':true,'checked': page === currentPage}" *ngFor="let page of pageItems"><a (click)="pageClick(page)" href="#">{{page}}</a>  </li>
+    <li class="next"> <a (click)="nextPage()" href="#">Next</a> </li>
+    
+</ul>
